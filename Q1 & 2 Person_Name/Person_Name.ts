@@ -17,3 +17,5 @@ Occupation = prompt(`Please enter your Occupation?`) || '';
 if(Occupation !== null && Occupation !== '')
 {alert(`Ahh! ${Occupation}, Sounds Good`)}
 else{alert('You have to fill your Occupation!')}
+//just checking changing on github, not a part of a assignment
+console.log('Checking changing on github')
