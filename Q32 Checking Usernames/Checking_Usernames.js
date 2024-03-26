@@ -9,13 +9,15 @@
 //If a username has not been used, print a message saying that the username is available.
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
 let current_users = ["Abid", "Hasnain", "Raza", "Arslan", "Ali Abbas"];
-let new_users = ["Yawer", "Hasnain", "Salman", "Bawa", "Ali Abbas"];
-new_users.forEach(newUserName => {
-    let lowercase = newUserName.toLowerCase();
-    if (current_users.map(c_user => c_user.toLowerCase()).includes(lowercase)) {
-        console.log(`${newUserName} is already taken. Please enter a new username`);
-    }
-    else {
-        console.log(`${newUserName} is available`);
-    }
-});
+let new_users = ["Yawer", "hasnain", "Salman", "Bawa", "ali Abbas"];
+// new_users.forEach(newUserName => {
+//     let lowercase = newUserName.toLowerCase()
+//     if(current_users.map(c_user => c_user.toLowerCase()).includes(lowercase)){
+//         console.log(`${newUserName} is already taken. Please enter a new username`)
+//     }
+//     else{
+//         console.log(`${newUserName} is available`)
+//     }
+// }
+// )  
+console.log(new_users.map(user => user));

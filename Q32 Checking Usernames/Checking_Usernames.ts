@@ -10,7 +10,7 @@
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN' should not be accepted.
 
 let current_users = ["Abid", "Hasnain", "Raza", "Arslan", "Ali Abbas"];
-let new_users = ["Yawer", "Hasnain", "Salman", "Bawa", "Ali Abbas"];
+let new_users = ["Yawer", "hasnain", "Salman", "Bawa", "ali Abbas"];
 
 new_users.forEach(newUserName => {
     let lowercase = newUserName.toLowerCase()
